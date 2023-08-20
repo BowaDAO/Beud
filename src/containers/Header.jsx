@@ -1,6 +1,5 @@
 import React from "react";
-import { NavigationBar } from "../components";
-import Hero from "../components";
+import { NavigationBar, Hero } from "../components";
 
 const Header = () => {
   return (
