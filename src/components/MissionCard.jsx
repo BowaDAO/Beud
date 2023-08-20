@@ -5,3 +5,4 @@ const MissionCard = () => {
 };
 
 export default MissionCard;
+//thumbnail

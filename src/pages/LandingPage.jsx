@@ -12,7 +12,7 @@ import {
 
 const LandingPage = () => {
   return (
-    <main>
+    <>
       <Header />
       <Mission />
       <Idea />
@@ -21,7 +21,7 @@ const LandingPage = () => {
       <FAQs />
       <Newsletter />
       <Footer />
-    </main>
+    </>
   );
 };
 

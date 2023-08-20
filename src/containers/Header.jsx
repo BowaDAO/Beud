@@ -3,10 +3,10 @@ import { NavigationBar, Hero } from "../components";
 
 const Header = () => {
   return (
-    <section>
+    <header>
       <NavigationBar />
       <Hero />
-    </section>
+    </header>
   );
 };
 
