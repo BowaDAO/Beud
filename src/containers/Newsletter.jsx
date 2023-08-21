@@ -25,7 +25,7 @@ const Newsletter = () => {
             <h2 className="lg:text-[40px] md:text-[26px] text-black font-bold">
               Subscribe to our newsletter
             </h2>
-            <p className="text-base text-white font-medium">
+            <p className="md:text-lg text-base text-white font-medium lg:max-w-[561px]">
               Each newsletter is curated with care to provide you with relevant
               and useful content.
             </p>

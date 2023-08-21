@@ -35,7 +35,7 @@ const FAQs = () => {
         <h2 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold capitalize">
           frequently asked questions
         </h2>
-        <p className="text-base md:text-lg text-main font-medium max-w-[303px] md:max-w-[341px]">
+        <p className="text-base md:text-lg text-main font-medium max-w-[303px] md:max-w-[341px] ">
           Lorem ipsum dolor sit amet consectetur Lorem ipsum dolorLorem ipsum
           dolor
         </p>

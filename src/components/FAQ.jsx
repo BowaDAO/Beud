@@ -14,11 +14,14 @@ const FAQ = ({ answer, question }) => {
     <article className="md:w-[786px] lg:w-[924px]">
       <div
         onClick={handleShow}
-        className="flex justify-between items-center lg:gap-3 bg-primary px-4 py-2 rounded-[5px] h-16 md:h-[72px] lg:h-[80px]"
+        className="flex justify-between items-center lg:gap-3 bg-primary px-4 py-2 rounded-[5px] h-16 md:h-[72px] lg:h-[80px] gap-2"
       >
         <h6 className="text-black text-base md:text-lg">{question}</h6>
         <button>
-          <img src={show ? icons.minus : icons.plus} className="h-4 w-4" />
+          <img
+            src={show ? icons.minus : icons.plus}
+            className="md:h-6 md:w-6 h-4 w-6"
+          />
         </button>
       </div>
 
