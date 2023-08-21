@@ -27,7 +27,9 @@ const MissionCard = ({ thumbNail, title, body }) => {
       <img src={thumbNail} className="h-[50px] w-[55px] " />
       <article className="flex flex-col items-start gap-[22px]">
         <h4 className="text-main text-xl font-semibold capitalize">{title}</h4>
-        <p className={`text-lg font-medium text-[${color}]`}>{body}</p>
+        <p className={`md:text-lg text-base font-medium text-[${color}]`}>
+          {body}
+        </p>
       </article>
     </div>
   );

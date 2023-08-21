@@ -9,9 +9,9 @@ const Tech = () => {
       </div>
 
       <article className="flex flex-col lg:items-start items-center lg:text-start text-center gap-4 md:gap-8 lg:max-w-[598px]">
-        <h1 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold md:max-w-[466px] max-w-[325px]">
+        <h2 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold md:max-w-[466px] max-w-[325px]">
           You Have The Tech Skill What Next?
-        </h1>
+        </h2>
         <p className="md:text-lg text-base font-medium text-grey">
           You have acquired extraordinary technical skills, thanks to your
           zealousness and desire to thrive. But what next? Join the saturated
