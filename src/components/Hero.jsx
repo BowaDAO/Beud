@@ -19,7 +19,11 @@ const Hero = () => {
             product ideas together to build. 
           </h2>
         </article>
-        <Button color={"light"} backgroundColor={"main"} />
+        <button
+          className={`text-white bg-main rounded-[30px] md:p-5 px-5 py-4 lg:text-lg text-base font-medium md:w-[178px] w-[163px]`}
+        >
+          Join the Waitlist
+        </button>
       </div>
       <div className="w-full md:w-[586px] md:h-[551px] ">
         <img

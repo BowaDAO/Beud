@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import { icons } from "../constants";
 
 const NavigationBar = () => {
@@ -8,7 +7,11 @@ const NavigationBar = () => {
       <h1 className="text-[38px] font-bold text-white">Beud</h1>
 
       <span className="hidden lg:inline">
-        <Button color={"main"} backgroundColor={"white"} />
+        <button
+          className={`text-main bg-white rounded-[30px] md:p-5 px-5 py-4 lg:text-lg text-base font-medium md:w-[178px] w-[163px]`}
+        >
+          Join the Waitlist
+        </button>
       </span>
 
       <button className="h-12 w-12 lg:hidden inline">
