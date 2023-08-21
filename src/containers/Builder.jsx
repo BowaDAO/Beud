@@ -3,12 +3,12 @@ import React from "react";
 const Builder = () => {
   return (
     <section className="flex items-center flex-col lg:px-24 py-12 md:py-16 lg:gap-11 md:gap-12 gap-8 md:px-[124px] px-4">
-      <article className="text-center">
+      <article className="flex flex-col gap-4 text-center">
         <h2 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold ">
           The Builder Way
         </h2>
         <p className="text-base md:text-lg text-main font-medium">
-          Founded in Nigeria Built for Africa.
+          Founded in Nigeria, built for Africa.
         </p>
       </article>
 
