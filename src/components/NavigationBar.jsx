@@ -8,7 +8,7 @@ const NavigationBar = () => {
 
       <span className="hidden lg:inline">
         <button
-          className={`text-main bg-white rounded-[30px] md:p-5 px-5 py-4 lg:text-lg text-base font-medium md:w-[178px] w-[163px]`}
+          className={`text-main bg-white rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px]`}
         >
           Join the Waitlist
         </button>

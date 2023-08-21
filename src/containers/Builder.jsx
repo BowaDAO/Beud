@@ -1,7 +1,7 @@
 import React from "react";
 
 const Builder = () => {
-  return <div></div>;
+  return <section></section>;
 };
 
 export default Builder;
