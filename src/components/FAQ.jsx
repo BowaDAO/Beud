@@ -26,7 +26,7 @@ const FAQ = ({ answer, question }) => {
       </div>
 
       {show && (
-        <article className="px-4 py-2 bg-main rounded-[5px]">
+        <article className=" md:py-8 px-4 py-6 bg-main rounded-[5px]">
           <p className="text-light text-base md:text-lg">{answer}</p>
         </article>
       )}
