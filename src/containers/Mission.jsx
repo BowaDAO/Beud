@@ -8,32 +8,24 @@ const missionData = [
     thumbNail: icons.vision,
     title: "our vision",
     body: "We envision a world where every African with a brilliant tech idea becomes a founder.",
-    backgroundColor: "#9CBAA6",
-    color: "#F1FFF6",
   },
   {
     id: 2,
     thumbNail: icons.talent,
     title: "talent",
     body: "We envision a world where  passionate tech professionals become co-founders.",
-    backgroundColor: "#F1FFF6",
-    color: "#536258",
   },
   {
     id: 3,
     thumbNail: icons.network,
     title: "network",
     body: "We are building a vibrant ecosystem of young talents ready to unleash technological innovations into Africa.",
-    backgroundColor: "#9CBAA6",
-    color: "#F1FFF6",
   },
   {
     id: 4,
     thumbNail: icons.aspire,
-    title: "Aspiration",
+    title: "aspiration",
     body: "We envision a world where Africa births hundreds of unicorns in years to come.",
-    backgroundColor: "#F1FFF6",
-    color: "#536258",
   },
 ];
 
