@@ -3,7 +3,7 @@ import React from "react";
 const Mission = () => {
   return (
     <section className="px-4 py-12 md:px-[111px] md:py-16 lg:py-16 lg:px-24 flex flex-col items-center">
-      <div className="flex flex-col gap-4 items-center text-center lg:max-w-[825px]">
+      <div className="flex flex-col gap-4 items-center text-center lg:max-w-[825px] md:max-w-[571px] ">
         <h1 className="text-black font-bold text-2xl md:text-[40px] md:leading-[48px]">
           Building A Thousand Unicorn Out Of Africa
         </h1>
