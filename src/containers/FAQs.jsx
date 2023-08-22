@@ -30,7 +30,7 @@ const faqData = [
 
 const FAQs = () => {
   return (
-    <section className="flex items-center flex-col lg:px-24 py-12 md:py-16 lg:gap-11 md:gap-12 gap-8 md:px-[124px] px-4">
+    <section className="flex items-center flex-col lg:px-24 py-12 lg:mb-6 md:py-16 lg:gap-11 md:gap-12 gap-8 md:px-[124px] px-4">
       <article className="text-center flex flex-col items-center gap-4">
         <h2 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold capitalize">
           frequently asked questions

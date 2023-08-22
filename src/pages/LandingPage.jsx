@@ -19,8 +19,13 @@ const LandingPage = () => {
       <Tech />
       <Builder />
       <FAQs />
-      <Newsletter />
-      <Footer />
+      <div className="relative">
+        <div className="lg:h-[250px] md:h-[200px]">
+          <Newsletter />
+        </div>
+
+        <Footer />
+      </div>
     </>
   );
 };

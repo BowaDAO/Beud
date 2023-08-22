@@ -19,7 +19,7 @@ const Newsletter = () => {
 
   if (screenWidth > 768) {
     newsletter = (
-      <section className="grid place-items-center mt-6">
+      <section className="grid place-items-center md:absolute md:left-[50%] md:ml-[-50%] lg:bottom-[320px] w-full ">
         <div className="bg-primary md:px-[72px] md:py-8 lg:px-[191px] lg:py-[56px] md:max-w-[607px] lg:max-w-[1037px] rounded-[30px] flex flex-col items-center justify-center gap-6 lg:gap-12 ">
           <article className="flex flex-col items-center lg:gap-4 gap-2 text-center">
             <h2 className="lg:text-[40px] md:text-[26px] text-black font-bold">
