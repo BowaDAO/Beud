@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="px-4 py-12 md:px-[127px] md:py-16 lg:px-24 lg:py-16  bg-light flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-24 items-center">
       <div className="flex flex-col items-start md:items-center lg:items-start gap-6 md:gap-8">
-        <article className="max-w-[567px] flex flex-col items-start gap-4 lg:gap-6 text-start md:text-center lg:text-start ">
+        <article className="lg:w-[567px] flex flex-col items-start gap-4 lg:gap-6 text-start md:text-center lg:text-start ">
           <h1 className="md:text-[48px] md:leading-[58px] text-4xl leading-10  text-black font-bold ">
             We Birth The Founders And Co-Founders Of The Future
           </h1>
@@ -25,7 +25,8 @@ const Hero = () => {
           Join the Waitlist
         </button>
       </div>
-      <div className="w-full md:w-[586px] md:h-[551px] ">
+      <div className="w-full h-full ">
+        {/* md:w-[583px] md:h-[551px] */}
         <img
           src={images.heroimage}
           alt="A techie holding a laptop"

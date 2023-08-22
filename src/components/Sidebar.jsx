@@ -14,7 +14,7 @@ const Sidebar = ({ closeSidebar, isSidebarOpen }) => {
     };
   }, []);
 
-  if (screenWidth > 768) {
+  if (screenWidth > 1024) {
     closeSidebar();
   }
 

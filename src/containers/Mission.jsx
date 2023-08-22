@@ -43,7 +43,7 @@ const Mission = () => {
           the most of their technical knowledge
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">
+      <div className="grid xl:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">
         {missionData.map((item) => {
           return <MissionCard key={item.id} {...item} />;
         })}
