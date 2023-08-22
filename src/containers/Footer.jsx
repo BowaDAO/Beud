@@ -1,7 +1,13 @@
 import React from "react";
+import { SocialLinks, Copyright } from "../components";
 
 const Footer = () => {
-  return <div></div>;
+  return (
+    <footer>
+      <SocialLinks />
+      <Copyright />
+    </footer>
+  );
 };
 
 export default Footer;
