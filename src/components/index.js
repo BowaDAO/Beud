@@ -7,6 +7,7 @@ import NavigationBar from "./NavigationBar";
 import SocialLinks from "./SocialLinks";
 import Subscribe from "./Subscribe";
 import Hero from "./Hero";
+import Sidebar from "./Sidebar";
 export {
   BuilderCard,
   Button,
@@ -17,4 +18,5 @@ export {
   SocialLinks,
   Subscribe,
   Hero,
+  Sidebar,
 };

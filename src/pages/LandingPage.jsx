@@ -20,7 +20,7 @@ const LandingPage = () => {
       <Builder />
       <FAQs />
       <div className="relative">
-        <div className="lg:h-[250px] md:h-[200px]">
+        <div className="lg:h-[260px] md:h-[200px]">
           <Newsletter />
         </div>
 
