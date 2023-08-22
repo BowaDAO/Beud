@@ -14,7 +14,7 @@ const NavigationBar = () => {
         </button>
       </span>
 
-      <button className="h-12 w-12 lg:hidden inline">
+      <button className="h-[23px] w-[33px] lg:hidden inline">
         <img src={icons.toggle} />
       </button>
     </nav>
