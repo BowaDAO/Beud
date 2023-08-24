@@ -5,7 +5,8 @@ const Copyright = () => {
 
   return (
     <p className="text-white text-base md:text-lg font-medium">
-      Copyright &copy; {date} Beud. All Rights Reserved
+      Copyright &copy; {date} Beud<span className="text-secondary">.</span> All
+      Rights Reserved
     </p>
   );
 };
