@@ -8,6 +8,7 @@ import plus from "../assets/icons/plus.png";
 import twitter from "../assets/icons/twitter.png";
 import instagram from "../assets/icons/Instagram.png";
 import linkedin from "../assets/icons/linkedin.png";
+import close from "../assets/icons/close-toggle.png";
 
 export default {
   toggle,
@@ -20,4 +21,5 @@ export default {
   twitter,
   instagram,
   linkedin,
+  close,
 };
