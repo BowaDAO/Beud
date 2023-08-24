@@ -1,4 +1,28 @@
 import React from "react";
+import { BuilderCard } from "../components";
+
+const builderData = [
+  {
+    id: 1,
+    text: "Expert-Vetted projects",
+  },
+  {
+    id: 2,
+    text: "Best & Most Passionate Tech Professionals",
+  },
+  {
+    id: 3,
+    text: "Community Support & Mentorship",
+  },
+  {
+    id: 4,
+    text: "Community Support & Mentorship",
+  },
+  {
+    id: 5,
+    text: "Community Support & Mentorship",
+  },
+];
 
 const Builder = () => {
   return (
@@ -13,21 +37,9 @@ const Builder = () => {
       </article>
 
       <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-y-12 lg:gap-x-6 md:gap-y-[42px] md:gap-x-4">
-        <article className="px-16 py-12 border-[2px] border-black rounded-[30px] w-[343px] max-w-full  text-center bg-primary text-base font-semibold text-main md:text-[20px] md:h-[178px] h-[144px] flex items-center justify-center">
-          <p>Expert-Vetted projects </p>
-        </article>
-        <article className="md:p-0 px-16 py-12 border-[2px] border-black rounded-[30px] w-[343px] max-w-full text-center bg-secondary text-base font-semibold text-main md:text-[20px] md:h-[178px] h-[144px] flex items-center justify-center">
-          <p>Best & Most Passionate Tech Professionals</p>
-        </article>
-        <article className="px-16 py-12 border-[2px] border-black rounded-[30px] w-[343px] max-w-full text-center bg-primary text-base font-semibold text-main md:text-[20px] md:h-[178px] h-[144px] flex items-center justify-center">
-          <p>Community Support & Mentorship</p>
-        </article>
-        <article className="px-16 py-12 border-[2px] border-black rounded-[30px] w-[343px] max-w-full text-center bg-secondary text-base font-semibold text-main md:text-[20px] md:h-[178px] h-[144px] flex items-center justify-center">
-          <p>Community Support & Mentorship</p>
-        </article>
-        <article className="px-16 py-12 border-[2px] border-black rounded-[30px] w-[343px] max-w-full text-center bg-primary text-base font-semibold text-main md:text-[20px] md:h-[178px] h-[144px] flex items-center justify-center">
-          <p>Community Support & Mentorship</p>
-        </article>
+        {builderData.map((item) => {
+          return <BuilderCard key={item.id} {...item} />;
+        })}
       </div>
     </section>
   );

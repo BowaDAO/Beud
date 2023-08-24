@@ -1,5 +1,6 @@
 import React from "react";
 
+//Component that renders each square card on the first section after the hero container
 const MissionCard = ({ thumbNail, title, body }) => {
   let backgroundColor;
   let color;
@@ -19,10 +20,6 @@ const MissionCard = ({ thumbNail, title, body }) => {
     backgroundColor = "white";
     color = "grey";
   }
-
-  //f1ff6 light
-  //9cbaa6 primary
-  //536258 grey
 
   return (
     <div
