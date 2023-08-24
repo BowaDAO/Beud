@@ -1,5 +1,6 @@
 import React from "react";
 
+//component rendering each builder card
 const BuilderCard = ({ text, id }) => {
   let backgroundColor;
   if (id === 1) {
