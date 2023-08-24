@@ -1,23 +1,23 @@
 import React from "react";
 
 //Component that renders each square card on the first section after the hero container
-const MissionCard = ({ thumbNail, title, body }) => {
+const MissionCard = ({ thumbNail, title, body, id }) => {
   let backgroundColor;
   let color;
-  if (title === "our vision") {
+  if (id === 1) {
     backgroundColor = "primary";
     color = "light";
   }
-  if (title === "talent") {
+  if (id === 2) {
     backgroundColor = "light";
     color = "grey";
   }
-  if (title === "network") {
+  if (id === 3) {
     backgroundColor = "primary";
-    color = "white";
+    color = "light";
   }
-  if (title === "aspiration") {
-    backgroundColor = "white";
+  if (id === 4) {
+    backgroundColor = "light";
     color = "grey";
   }
 
