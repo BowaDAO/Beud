@@ -6,7 +6,7 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/containers/**/*.{js,ts,jsx,tsx}",
   ],
-  safelist: ["main", "bg-light", "text-white"],
+  safelist: ["main", "bg-light", "text-white, bg-secondary"],
   theme: {
     extend: {
       colors: {
