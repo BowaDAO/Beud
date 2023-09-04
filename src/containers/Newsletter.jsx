@@ -36,12 +36,12 @@ const Newsletter = () => {
     );
   } else {
     newsletter = (
-      <section className="w-full bg-primary py-12 px-4 flex flex-col gap-2">
+      <section className="w-full bg-primary py-12 px-4 mt-5 flex flex-col gap-2">
         <article className="text-center flex flex-col items-center gap-4">
           <h2 className="lg:text-[40px] md:text-[26px] text-2xl text-black font-bold">
             Subscribe to our newsletter
           </h2>
-          <p className="text-base text-white font-medium max-w-[315px]">
+          <p className="text-base text-white font-medium max-w-[315px] ">
             Each newsletter is curated with care to provide you with relevant
             and useful content.
           </p>

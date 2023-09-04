@@ -11,12 +11,12 @@ const FAQ = ({ answer, question }) => {
   };
 
   return (
-    <div className="flex flex-col gap-4 md:w-[786px] lg:w-[924px] rounded-[5px] bg-primary px-4 py-6 ">
+    <div className="flex flex-col gap-4 md:w-[786px] lg:w-[924px] rounded-[5px] bg-primary px-4 py-4 md:py-8 text-base md:text-lg text-black font-[600]">
       <div
         onClick={handleShow}
-        className="flex justify-between items-center lg:gap-3  gap-2"
+        className="flex justify-between items-center lg:gap-3 gap-2"
       >
-        <h6 className="text-black text-base md:text-lg">{question}</h6>
+        <h6>{question}</h6>
         <button>
           <img
             src={show ? icons.minus : icons.plus}
@@ -25,7 +25,7 @@ const FAQ = ({ answer, question }) => {
         </button>
       </div>
 
-      {show && <p className="text-black text-base md:text-lg">{answer}</p>}
+      {show && <p>{answer}</p>}
     </div>
   );
 };
