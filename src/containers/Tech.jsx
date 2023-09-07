@@ -10,14 +10,14 @@ const Tech = () => {
 
       <article className="flex flex-col lg:items-start items-center lg:text-start text-center gap-4 md:gap-8 lg:max-w-[598px]">
         <h2 className="text-2xl md:text-[40px] md:leading-[48px] text-black font-bold md:max-w-[466px] max-w-[325px]">
-          You Have The Tech Skill What Next?
+          You Have The Tech Skill, What Next?
         </h2>
         <p className="md:text-lg text-base font-medium text-grey">
-          You have acquired extraordinary technical skills, thanks to your
-          zealousness and desire to thrive. But what next? Join the saturated
-          employment market?. Not a bad idea if you ask us, but we know a better
-          one. Team up with other talents to build exciting products and become
-          a co-founder.
+          You have acquired technical skills thanks to your zealousness and
+          desire to thrive. What is your next step? Join the saturated tech job
+          market? That is not a bad idea if you ask us, but we know a better one
+          - teaming up with other talents to build profitable products and
+          become a co-founder.
         </p>
 
         <button

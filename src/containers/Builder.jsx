@@ -4,15 +4,15 @@ import { BuilderCard } from "../components";
 const builderData = [
   {
     id: 1,
-    text: "Expert-Vetted projects",
+    text: "Expert-Vetted Proposals",
   },
   {
     id: 2,
-    text: "Best & Most Passionate Tech Professionals",
+    text: "Problem-Solving Products",
   },
   {
     id: 3,
-    text: "Community Support & Mentorship",
+    text: "Passionate Tech Talents",
   },
   {
     id: 4,
@@ -20,7 +20,7 @@ const builderData = [
   },
   {
     id: 5,
-    text: "Community Support & Mentorship",
+    text: "Experienced Mentors",
   },
 ];
 

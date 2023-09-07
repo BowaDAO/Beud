@@ -42,8 +42,8 @@ const Newsletter = () => {
             Subscribe to our newsletter
           </h2>
           <p className="text-base text-white font-medium max-w-[315px] ">
-            Each newsletter is curated with care to provide you with relevant
-            and useful content.
+            Each newsletter is curated to provide relevant information about the
+            Beuder ecosystem.
           </p>
         </article>
         <Subscribe />

@@ -11,12 +11,12 @@ const Hero = () => {
             We Birth The Founders And Co-Founders Of The Future
           </h1>
           <h2 className="md:text-lg text-base font-medium text-grey">
-            Rethink your career strategy. Not everyone will work for a unicorn,
-            why don’t you join hands with other top talents to build one? The
-            Builder helps brilliant tech and non-tech individuals transform
-            their unique problem-solving ideas into commercial products. We
-            bring talents with technical skills and geniuses with brilliant
-            product ideas together to build. 
+            Rethink your career strategy. Not everyone will get into an existing
+            tech company, but anyone can join hands with other top talents to
+            build one. Beuder helps to transform unique problem-solving ideas
+            into commercial products. We bring talents with technical skills and
+            individuals with brilliant product ideas together to build
+            potentially profitable commercial products.
           </h2>
         </article>
         <button
@@ -26,7 +26,6 @@ const Hero = () => {
         </button>
       </div>
       <div className="w-full lg:w-[583px] h-full ">
-        {/* md:w-[583px] md:h-[551px] */}
         <img
           src={images.heroimage}
           alt="A techie holding a laptop"
