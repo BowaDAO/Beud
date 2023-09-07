@@ -12,9 +12,9 @@ const Hero = () => {
           </h1>
           <h2 className="md:text-lg text-base font-medium text-grey">
             Rethink your career strategy. Not everyone will get into an existing
-            tech company, but anyone can join hands with other top talents to
-            build one. Beuder helps to transform unique problem-solving ideas
-            into commercial products. We bring talents with technical skills and
+            tech company, but anyone can join other top talents to build one.
+            Beuder helps to transform unique problem-solving ideas into
+            commercial products. We bring talents with technical skills and
             individuals with brilliant product ideas together to build
             potentially profitable commercial products.
           </h2>
