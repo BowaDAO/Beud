@@ -1,3 +1,4 @@
+import { icons } from "../constants";
 export const faqData = [
   {
     question: "What is Beuder?",
@@ -20,8 +21,58 @@ export const faqData = [
       "Beuder strives to bring in highly motivated talents who can deliver exceptional value. We conduct fair interviews (portfolio inspection and short assignment) to inspect the talent’s technical skills. However, Beuder leans towards the motivation and desire of an individual to build.",
   },
   {
-    question: "How Do I Join The Community?",
+    question: "How Do I Join The Ecosystem?",
     answer:
       "Please use the “Join the waitlist” button to navigate the form page. We will reach out to you in a while.",
+  },
+];
+
+export const missionData = [
+  {
+    id: 1,
+    thumbNail: icons.vision,
+    title: "vision",
+    body: "Birth founders and co-founders motivated to build problem-solving, commercial products.",
+  },
+  {
+    id: 2,
+    thumbNail: icons.talent,
+    title: "talent",
+    body: "Unlock the potential of tech talents in Africa to build products that can compete globally.",
+  },
+  {
+    id: 3,
+    thumbNail: icons.network,
+    title: "network",
+    body: "Build a vibrant ecosystem of young talents ready to unleash technological innovation in Africa.",
+  },
+  {
+    id: 4,
+    thumbNail: icons.aspire,
+    title: "aspiration",
+    body: "Develop hundreds of globally-dominant tech products in Africa in the next few years.",
+  },
+];
+
+export const builderData = [
+  {
+    id: 1,
+    text: "Expert-Vetted Proposals",
+  },
+  {
+    id: 2,
+    text: "Problem-Solving Products",
+  },
+  {
+    id: 3,
+    text: "Passionate Tech Talents",
+  },
+  {
+    id: 4,
+    text: "Community Support & Mentorship",
+  },
+  {
+    id: 5,
+    text: "Experienced Mentors",
   },
 ];

@@ -1,30 +1,9 @@
-import React from "react";
+import { useState } from "react";
 import { BuilderCard } from "../components";
-
-const builderData = [
-  {
-    id: 1,
-    text: "Expert-Vetted Proposals",
-  },
-  {
-    id: 2,
-    text: "Problem-Solving Products",
-  },
-  {
-    id: 3,
-    text: "Passionate Tech Talents",
-  },
-  {
-    id: 4,
-    text: "Community Support & Mentorship",
-  },
-  {
-    id: 5,
-    text: "Experienced Mentors",
-  },
-];
+import { builderData } from "../data/data";
 
 const Builder = () => {
+  const [data, setData] = useState(builderData);
   return (
     <section className="flex items-center flex-col lg:px-24 py-12 md:py-16 lg:gap-11 md:gap-12 gap-8 md:px-[124px] px-4">
       <article className="flex flex-col gap-4 text-center">
@@ -37,7 +16,7 @@ const Builder = () => {
       </article>
 
       <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-y-12 lg:gap-x-6 md:gap-y-[42px] md:gap-x-4">
-        {builderData.map((item) => {
+        {data.map((item) => {
           return <BuilderCard key={item.id} {...item} />;
         })}
       </div>
