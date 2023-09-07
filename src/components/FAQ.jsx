@@ -11,7 +11,7 @@ const FAQ = ({ answer, question }) => {
   };
 
   return (
-    <div className="flex flex-col gap-4 md:w-[786px] lg:w-[924px] w-[95vw] rounded-[5px] bg-primary px-4 py-4 md:py-8 text-base md:text-lg text-black font-[600]">
+    <div className="flex flex-col gap-4 md:w-[786px] lg:w-[924px] w-[92vw] rounded-[5px] bg-primary px-4 py-4 md:py-8 text-base md:text-lg text-black font-[600]">
       <div
         onClick={handleShow}
         className="flex justify-between items-center lg:gap-3 gap-2"
