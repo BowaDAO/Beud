@@ -1,18 +1,8 @@
-import { useState, useEffect } from "react";
 import { icons } from "../constants";
+import { useResize } from "../hooks/useResize";
 
 const Sidebar = ({ closeSidebar, isSidebarOpen }) => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const { screenWidth } = useResize();
 
   if (screenWidth > 1024) {
     closeSidebar();
