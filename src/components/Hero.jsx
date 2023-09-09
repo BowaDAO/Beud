@@ -19,7 +19,7 @@ const Hero = () => {
           </h2>
         </article>
         <a
-          href="  Join the Waitlist"
+          href="https://forms.gle/Ac9jwx2nNwipgFUW7"
           target="_blank"
           className={`text-white bg-main rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] hover:opacity-80`}
         >
