@@ -28,11 +28,13 @@ const Sidebar = ({ closeSidebar, isSidebarOpen }) => {
         <img src={icons.close} className="h-10 w-10 md:h-12 md:w-12 " />
       </button>
       <div className="mt-12 flex items-center justify-center h-full">
-        <button
+        <a
+          href="https://forms.gle/Ac9jwx2nNwipgFUW7"
+          target="_blank"
           className={`text-main bg-white  rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px]`}
         >
           Join the Waitlist
-        </button>
+        </a>
       </div>
     </aside>
   );
