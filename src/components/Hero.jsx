@@ -18,13 +18,13 @@ const Hero = () => {
             individuals with transformative product ideas to build and ship.
           </h2>
         </article>
-        <button
+        <a
+          href="  Join the Waitlist"
+          target="_blank"
           className={`text-white bg-main rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] hover:opacity-80`}
         >
-          <a href="  Join the Waitlist" target="_blank">
-            Join the Waitlist
-          </a>
-        </button>
+          Join the Waitlist
+        </a>
       </div>
       <div className="w-full lg:w-[583px] h-full ">
         <img

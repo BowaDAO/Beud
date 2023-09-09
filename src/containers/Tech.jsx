@@ -20,13 +20,13 @@ const Tech = () => {
           co-founder.
         </p>
 
-        <button
+        <a
+          href="https://forms.gle/Ac9jwx2nNwipgFUW7"
+          target="_blank"
           className={`text-main bg-white border-[2px] border-main rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] lg:mt-[-8px] mt-4 hover:opacity-80`}
         >
-          <a href="https://forms.gle/Ac9jwx2nNwipgFUW7" target="_blank">
-            Join the Waitlist
-          </a>
-        </button>
+          Join the Waitlist
+        </a>
       </article>
     </section>
   );
