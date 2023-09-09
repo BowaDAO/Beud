@@ -11,10 +11,9 @@ const Mission = () => {
           Building A Hundred Unicorns Out Of Africa
         </h2>
         <p className="text-grey font-medium text-base md:text-lg">
-          Beuder believes in African brilliance and understands that many gifted
-          individuals cannot transform their unique ideas into functional
-          products, and many tech talents lack the opportunity to put their
-          technical knowledge into commercial usage.
+          Beuder believes in African brilliance. We envision exploiting this
+          brilliance to foster hundreds of unicorns out of Africa in the next
+          decades.
         </p>
       </div>
       <div className="grid xl:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">

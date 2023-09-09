@@ -11,18 +11,19 @@ const Hero = () => {
             We Birth The Founders And Co-Founders Of The Future
           </h1>
           <h2 className="md:text-lg text-base font-medium text-grey">
-            Rethink your career strategy. Not everyone will get into an existing
-            tech company, but anyone can join other top talents to build one.
-            Beuder helps to transform unique problem-solving ideas into
-            commercial products. We bring talents with technical skills and
-            individuals with brilliant product ideas together to build
-            potentially profitable commercial products.
+            Rethink your career strategy. Not everyone will be employed by an
+            existing tech company. Join other top talents to transform
+            brilliant, problem-solving ideas into profitable commercial products
+            that can compete globally. We bring together tech talents and
+            individuals with transformative product ideas to build and ship.
           </h2>
         </article>
         <button
           className={`text-white bg-main rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] hover:opacity-80`}
         >
-          Join the Waitlist
+          <a href="  Join the Waitlist" target="_blank">
+            Join the Waitlist
+          </a>
         </button>
       </div>
       <div className="w-full lg:w-[583px] h-full ">

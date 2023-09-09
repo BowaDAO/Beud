@@ -14,16 +14,18 @@ const Tech = () => {
         </h2>
         <p className="md:text-lg text-base font-medium text-grey">
           You have acquired technical skills thanks to your zealousness and
-          desire to thrive. What is your next step? Join the saturated tech job
+          desire to thrive. What is your next step? Join the saturated job
           market? That is not a bad idea if you ask us, but we know a better one
-          - teaming up with other talents to build profitable products and
-          become a co-founder.
+          - teaming up with other talents to build products and become a
+          co-founder.
         </p>
 
         <button
           className={`text-main bg-white border-[2px] border-main rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] lg:mt-[-8px] mt-4 hover:opacity-80`}
         >
-          Join the Waitlist
+          <a href="https://forms.gle/Ac9jwx2nNwipgFUW7" target="_blank">
+            Join the Waitlist
+          </a>
         </button>
       </article>
     </section>

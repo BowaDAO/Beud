@@ -25,7 +25,13 @@ const FAQ = ({ answer, question }) => {
         </button>
       </div>
 
-      {show && <p>{answer}</p>}
+      {show && (
+        <article className="flex flex-col gap-2">
+          {answer.map((item, index) => {
+            return <ul key={index}>{item} </ul>;
+          })}
+        </article>
+      )}
     </div>
   );
 };

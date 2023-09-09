@@ -10,7 +10,9 @@ const NavigationBar = ({ openSidebar }) => {
         <button
           className={`text-main bg-white rounded-[30px] md:p-5 px-5 py-4 md:text-lg text-base font-medium md:w-[178px] w-[163px] hover:opacity-80`}
         >
-          Join the Waitlist
+          <a href="https://forms.gle/Ac9jwx2nNwipgFUW7" target="_blank">
+            Join the Waitlist
+          </a>
         </button>
       </span>
 

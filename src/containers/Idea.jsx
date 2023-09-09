@@ -9,11 +9,10 @@ const Idea = () => {
           A Brilliant Problem-Solving Idea?
         </h2>
         <p className="md:text-lg text-base font-medium text-grey">
-          Join the Beuder ecosystem to transform your brilliant idea into a
-          functional product that solves problems. Beuder will form a team of
-          passionate tech and non-tech professionals to co-found and build your
-          vision into a commercial product under the guidance and mentorship of
-          Beuder.
+          Join Beuder to transform your idea into a functional product that
+          solves problems. We will form a team of passionate tech and non-tech
+          professionals to co-found and build your idea into a commercial
+          product under the guidance and mentorship of the ecosystem.
         </p>
       </article>
       <div className="max-w-[482px]">
