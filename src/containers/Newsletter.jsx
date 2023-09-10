@@ -1,19 +1,9 @@
 import React from "react";
 import { Subscribe } from "../components";
-import { useState, useEffect } from "react";
+import { useResize } from "../hooks/useResize";
 
 const Newsletter = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const { screenWidth } = useResize();
 
   let newsletter;
 
